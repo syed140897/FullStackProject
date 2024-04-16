@@ -1,0 +1,62 @@
+.bookAddHeading{
+    background-color: #9999ff;
+    padding: 15px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.addBookContainer{
+    display: grid;
+    width: 30%;
+    text-align: center;
+    margin: 30px auto;
+}
+h2{
+    margin: 10px;
+    border-bottom: 1px solid black;
+}
+label{
+    text-align: left;
+    font-size: 24px;
+}
+input{
+    margin:10px;
+    padding: 8px;
+    border-radius: 5px;
+    background-color: #8c8ce96e;
+}
+.add-book-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.add-book-btn button{
+    padding: 10px;
+    margin: 0 30px;
+    border: none;
+    border-radius: 5px;
+}
+#confirm-btn{
+    background-color: rgb(74, 212, 74);
+}
+#confirm-btn:hover{
+    background-color: rgb(48, 141, 48);
+}
+#cancel-btn{
+    background-color: tomato;
+}
+#cancel-btn:hover{
+    background-color: rgb(163, 65, 47);
+
+}
+.id-btn{
+    padding: 10px;
+    background-color: rgb(74, 212, 74);
+    border: none;
+    border-radius: 5px;
+}
+.id-btn:hover{
+    background-color: rgb(48, 141, 48);
+
+}

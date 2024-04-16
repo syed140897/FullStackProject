@@ -1,0 +1,54 @@
+.returnContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    text-align: center;
+    margin: 0 auto;
+}
+.return-book{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5% auto 0;
+    background-color: antiquewhite;
+    width: fit-content;
+    padding: 50px;
+    
+}
+.lable-container{
+    display: grid;
+    margin: 0 20px;
+    font-weight: 900;
+}
+label{
+    margin: 10px 0;
+}
+.value-container{
+    display: grid;
+    margin: 0 20px;
+
+}
+.return-book-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2%;
+}
+#return-btn,#return-cancel-btn{
+    padding: 15px;
+    margin: 0 2%;
+}
+#return-btn{
+    background-color: rgb(74, 212, 74);
+}
+#return-btn:hover{
+    background-color: rgb(48, 141, 48);
+}
+#return-cancel-btn{
+    background-color: tomato;
+} 
+#return-cancel-btn:hover{
+    background-color: rgb(163, 65, 47);
+
+}
