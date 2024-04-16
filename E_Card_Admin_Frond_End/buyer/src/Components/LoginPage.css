@@ -1,0 +1,50 @@
+.HeadingTitle{
+    background-color: rgb(39, 94, 143);
+    text-align: center;
+   
+}
+h1{
+    font-size: 64px;
+    color: white;
+    padding: 15px;
+   
+}
+.loginContainer{
+    background-color: aliceblue;
+     width: fit-content;
+     margin: 30px auto;
+
+}
+h2{
+    padding: 10px;
+    margin:  auto;
+    width: fit-content;
+    border-bottom: 1px dotted black;
+    text-align: center;
+}
+.inputContainer{
+    margin: 30px;
+    text-align: center;
+}
+input{
+    margin: 10px;
+    padding: 8px;
+}
+#login{
+    padding: 5px;
+    margin: 5px 10px; 
+}
+#login:hover{
+    background-color: rgb(39, 94, 143);
+    color: white;
+}
+.linkContainer{
+    text-align: center;
+}
+p{
+   margin-top: 0;
+   font-size: 12px;
+}
+h3{
+   padding: 20px;
+}

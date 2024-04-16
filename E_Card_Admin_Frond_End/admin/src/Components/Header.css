@@ -1,0 +1,28 @@
+.headContainer{
+    background-color: rgb(39, 94, 143);
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+h1{
+    font-size: 64px;
+    color: whitesmoke;
+    margin: 10px 50px;
+    font-style: italic;
+}
+.productController{
+  margin: auto 10px;
+}
+.productController button{
+    margin: 0 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.productController button:hover{
+    background-color: rgb(132, 150, 167);
+}
+#backButton{
+    background-color: brown;
+    height: 40px;
+    margin: auto 20px;
+}

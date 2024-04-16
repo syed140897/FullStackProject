@@ -1,0 +1,57 @@
+#add-head{
+    margin: auto;
+}
+.addContainer{
+    text-align: center;
+    background-color: aliceblue;
+    width: fit-content;
+    margin: 20px auto;   
+}
+h2{
+    border-bottom: 1px double black;
+    width: fit-content;
+   margin: auto;
+}
+.inputContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+.inputContainer img{
+    width: 200px;
+}
+.addProductContainer{
+    display: grid;
+}
+.add-input{
+    margin: 5px 20px;
+}
+input{
+    padding: 5px;
+    margin: 10px;
+}
+textarea{
+   height: 60px;
+}
+.add-btn{
+    margin: 20px auto;
+}
+button{
+    margin:10px 20px;
+    padding: 10px;
+}
+#confirm{
+    background-color: green;
+    color: white;
+}
+#cancel{
+    background-color: tomato;
+    color: white;
+}
+#confirm:hover{
+    background-color: rgb(0, 71, 0);
+}
+#cancel:hover{
+    background-color: rgb(126, 49, 35);
+}

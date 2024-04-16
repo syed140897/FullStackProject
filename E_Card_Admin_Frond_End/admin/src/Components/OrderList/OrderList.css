@@ -1,0 +1,63 @@
+.body-contents{
+    display: flex;
+ 
+  }
+table{
+    border: 1px solid black;
+    margin: 20px;
+    border-collapse: collapse;
+}
+th{
+    padding: 5px;
+    border: 2px double black;
+    background-color:  rgb(39, 94, 143);;
+    color: white;
+}
+tr,td{
+    
+    border: 1px solid black;
+    text-align: center;
+}
+
+#deliveryaction,#cancelaction{
+    padding: 10px;
+}
+#deliveryaction{
+  color: green;
+}
+#cancelaction{
+    color: red;
+}
+#confirm-logo{
+      width: 50px;
+      margin: auto;    
+}
+#cancel-logo{
+    width:38px;
+    margin: 5px;
+}
+#btn{
+    margin: 5px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.filter-option{
+    text-align: center;
+    background-color: aliceblue;
+    width: 250px;
+   
+}
+h3{
+    margin:10px auto;
+ }
+.filter-group{
+    margin: 50px auto;
+}
+.filter-group button{
+    width: 200px;
+}
+.filter-group button:hover{
+    background-color: rgb(132, 150, 167);
+}

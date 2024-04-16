@@ -1,0 +1,48 @@
+.orderPage{
+    display: grid;
+    width: 900px;
+    height: 200px;
+}
+.orderListPage{
+    display: flex;
+    margin: 20px 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+#orderNamepage,#orderCountpage,#orderPricepage,#orderStatusPage{
+    font-size: 20px;
+    margin: 30px;
+}
+#orderCountpage{
+    font-size: 20px;
+}
+#orderNamepage{
+    font-weight: 800;
+}
+#orderPricepage{
+    font-weight: 600;
+}
+.orderDelete{
+    margin-left: 100px;
+}
+#orderDelete{
+    background-color: rgb(39, 94, 143);  
+    color: white;
+}
+#orderDelete:hover{
+    background-color:  rgb(85, 113, 138);
+}
+#historyDeleteD{
+    background-color: green;
+    color: white;
+}
+#historyDeleteD:hover{
+    background-color: rgb(52, 129, 52);
+}
+#historyDeleteC{
+    background-color: red;
+    color: white;
+}
+#historyDeleteC:hover{
+    background-color: rgb(204, 83, 83);
+}

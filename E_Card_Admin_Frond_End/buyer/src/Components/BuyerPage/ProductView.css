@@ -1,0 +1,79 @@
+.productViewPage{
+    display: flex;
+    justify-content: space-around;
+}
+.productDetaiils{
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.productImg img{
+    width: 300px;
+    height: 300px;
+}
+.productDecrip{
+    padding: 10px;
+}
+.productDecrip #productName{
+    font-size: 56px;
+    margin-bottom: 10px;
+}
+.productDecrip #productDes{
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+.productDecrip #productPrice{
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+.productDecrip #productRate{
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+.productDecrip #productCount{
+    margin-left: 10px;
+}
+.productViewBtn{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+#count{
+    width: 60px;
+}
+button{
+    width: fit-content;
+    height: fit-content;
+    padding: 10px;
+}
+.orderView{
+    width: 500px;
+    display: grid;
+    border-left: 1px double black;
+    padding: 20px;
+    background-color: aliceblue;
+}
+#orderDetail{
+    font-size: 32px;
+    font-weight: 500;
+    text-align: center;
+}
+#orderName,#orderPrice,#productCount,#total{
+    font-size: 26px;
+}
+.order{
+    display: flex;
+    justify-content: center;
+    gap: 20px; 
+}
+.orderView p{
+    padding: 10px;  
+}
+#payment{
+    display: flex;
+    padding: 10px;
+}

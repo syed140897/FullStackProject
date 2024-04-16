@@ -1,0 +1,83 @@
+.buyerTitle{
+    background-color: rgb(39, 94, 143);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.buyerName{
+    display: flex;
+    margin: auto 50px;
+}
+h4{
+    margin: auto 50px;
+    color: white;
+}
+#btn{
+    padding: 5px;
+    margin: 5px 10px; 
+}
+#btn:hover{
+    background-color: rgb(39, 94, 143);
+    color: white;
+}
+.productList{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+.product{
+    margin: 50px;
+    width: 220px;
+    height: 300px;
+    text-align: center;
+    background-color: rgb(200, 221, 214);
+}
+img{
+    margin-top: 10px;
+     height: 200px;
+     width: 200px;
+     cursor: pointer;
+}
+#productName{
+    font-size: 18px;
+    font-weight: 800;
+}
+#productPrice{
+    font-size: 18px;
+    margin: 2px;
+}
+.addcart{
+    padding: 5px;
+    margin: 10px;
+    background-color: yellowgreen;
+    transition: background-color 1s;
+}
+.addcart:hover{
+    background-color: green;
+}
+.productHead{
+    display: flex;
+    justify-content: space-between;
+}
+.search-container{
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    margin: 20px;
+    justify-content: center;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 3px;
+ }
+ .search-container img{
+    height: 30px;
+    width: 40px;
+    margin: auto;
+    cursor: pointer;
+}
+.search-container input{
+    margin: 0;
+    background-color: white;
+    border: none;
+    outline: none;
+}
